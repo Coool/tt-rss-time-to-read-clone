@@ -3,8 +3,6 @@ require(['dojo/_base/kernel', 'dojo/ready'], function  (dojo, ready) {
 
 	function inject_prompt(row) {
 		try {
-			console.log('ip', row);
-
 			const words = row.querySelector(".content-inner").textContent.split(/\s+/).length;
 			const ttr = Math.round(words / words_per_minute).toFixed(0);
 
