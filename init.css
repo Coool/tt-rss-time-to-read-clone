@@ -1,3 +1,5 @@
 .time-to-read {
-	color : black;
+	font-size : 11px;
+	white-space : nowrap;
+	font-style : italic;
 }

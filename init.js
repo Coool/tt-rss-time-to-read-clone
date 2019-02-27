@@ -11,7 +11,7 @@ require(['dojo/_base/kernel', 'dojo/ready'], function  (dojo, ready) {
 			if (ttr > 1) {
 
 				const pr = document.createElement("span");
-				pr.className = 'time-to-read label';
+				pr.className = 'time-to-read insensitive';
 				pr.innerHTML = "Time to read: ~" + ttr  + " minutes.";
 
 				row.querySelector(".titleWrap").appendChild(pr);
