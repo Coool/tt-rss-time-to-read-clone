@@ -10,7 +10,7 @@ require(['dojo/_base/kernel', 'dojo/ready'], function  (dojo, ready) {
 
 				const pr = document.createElement("span");
 				pr.className = 'time-to-read insensitive';
-				pr.innerHTML = "Time to read: ~" + ttr  + " minutes.";
+				pr.innerHTML = __("Time to read: ~%s minutes.").replace("%s", ttr);
 
 				row.querySelector(".titleWrap").appendChild(pr);
 			}
