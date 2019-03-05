@@ -1,7 +1,7 @@
 #!/bin/sh
 TEMPLATE=time_to_read.pot
 
-xgettext -kP__:2 -L PHP -o $TEMPLATE *.php
+xgettext -k__ -L PHP -o $TEMPLATE *.php
 xgettext -k__ -L Java -j -o $TEMPLATE *.js
 
 update_lang() {

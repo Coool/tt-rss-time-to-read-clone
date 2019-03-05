@@ -26,13 +26,13 @@ class Time_to_Read extends Plugin {
 		return 2;
 	}
 
-	/*function hook_prefs_tab($args) {
+	function hook_prefs_tab($args) {
 		if ($args != "prefPrefs") return;
 
 		print "<div dojoType='dijit.layout.AccordionPane'
-			title=\"<i class='material-icons'>photo</i> ".P__($this, 'Test-Test')."\">";
+			title=\"<i class='material-icons'>photo</i> ".$this->__('Test-Test')."\">";
 
 		print "</div>";
 
-	}*/
+	}
 }
